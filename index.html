@@ -3,10 +3,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Saurabh A. Deshmukh | Computer Engineering</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Sanved R. Bawankar | Computer Engineering</title>
 
     <style>
 
@@ -23,8 +26,6 @@
             color: #172033;
         }
 
-        /* NAVBAR */
-
         nav {
             height: 70px;
             width: 100%;
@@ -36,10 +37,12 @@
             padding: 0 8%;
 
             background: white;
+
             border-bottom: 1px solid #e5e9f2;
 
             position: sticky;
             top: 0;
+
             z-index: 1000;
         }
 
@@ -69,8 +72,6 @@
             color: #4263eb;
         }
 
-        /* HERO */
-
         .hero {
             min-height: 90vh;
 
@@ -79,11 +80,20 @@
             align-items: center;
 
             text-align: center;
+
             padding: 50px 20px;
 
             background:
-                radial-gradient(circle at top left, #dce7ff, transparent 35%),
-                radial-gradient(circle at bottom right, #eadfff, transparent 35%),
+                radial-gradient(
+                    circle at top left,
+                    #dce7ff,
+                    transparent 35%
+                ),
+                radial-gradient(
+                    circle at bottom right,
+                    #eadfff,
+                    transparent 35%
+                ),
                 #f5f8ff;
         }
 
@@ -97,17 +107,21 @@
             padding: 10px 20px;
 
             background: #e9efff;
+
             color: #4263eb;
 
             border-radius: 30px;
 
             font-size: 14px;
+
             margin-bottom: 25px;
         }
 
         .hero h1 {
             font-size: clamp(45px, 8vw, 80px);
+
             line-height: 1.1;
+
             margin-bottom: 25px;
         }
 
@@ -117,22 +131,25 @@
 
         .hero p {
             max-width: 700px;
+
             margin: auto;
 
             color: #68738a;
 
             font-size: 19px;
+
             line-height: 1.7;
 
             margin-bottom: 35px;
         }
 
-        /* BUTTONS */
-
         .buttons {
             display: flex;
+
             justify-content: center;
+
             gap: 15px;
+
             flex-wrap: wrap;
         }
 
@@ -144,6 +161,7 @@
             border-radius: 30px;
 
             text-decoration: none;
+
             font-weight: bold;
 
             transition: 0.3s;
@@ -159,12 +177,15 @@
             );
 
             box-shadow:
-                0 8px 25px rgba(66, 99, 235, 0.25);
+                0 8px 25px
+                rgba(66, 99, 235, 0.25);
         }
 
         .secondary {
             color: #4263eb;
+
             background: white;
+
             border: 1px solid #dce3f3;
         }
 
@@ -172,15 +193,15 @@
             transform: translateY(-4px);
         }
 
-        /* SECTIONS */
-
         section {
             padding: 90px 8%;
         }
 
         .title {
             text-align: center;
+
             font-size: 40px;
+
             margin-bottom: 45px;
         }
 
@@ -188,10 +209,9 @@
             color: #4263eb;
         }
 
-        /* ABOUT */
-
         .about-box {
             max-width: 900px;
+
             margin: auto;
 
             padding: 40px;
@@ -203,21 +223,23 @@
             border: 1px solid #e5e9f2;
 
             box-shadow:
-                0 10px 35px rgba(35, 52, 85, 0.07);
+                0 10px 35px
+                rgba(35, 52, 85, 0.07);
 
             text-align: center;
         }
 
         .about-box p {
             color: #68738a;
+
             font-size: 18px;
+
             line-height: 1.8;
         }
 
-        /* SKILLS */
-
         .skills {
             max-width: 1100px;
+
             margin: auto;
 
             display: grid;
@@ -240,7 +262,8 @@
             border: 1px solid #e5e9f2;
 
             box-shadow:
-                0 10px 35px rgba(35, 52, 85, 0.06);
+                0 10px 35px
+                rgba(35, 52, 85, 0.06);
 
             transition: 0.3s;
         }
@@ -249,7 +272,8 @@
             transform: translateY(-8px);
 
             box-shadow:
-                0 15px 40px rgba(66, 99, 235, 0.12);
+                0 15px 40px
+                rgba(66, 99, 235, 0.12);
         }
 
         .icon {
@@ -264,6 +288,7 @@
             align-items: center;
 
             margin: auto;
+
             margin-bottom: 20px;
 
             border-radius: 20px;
@@ -273,18 +298,19 @@
 
         .skill-card h3 {
             font-size: 22px;
+
             margin-bottom: 12px;
         }
 
         .skill-card p {
             color: #737e94;
+
             line-height: 1.6;
         }
 
-        /* PROJECT */
-
         .project-box {
             max-width: 1000px;
+
             margin: auto;
 
             padding: 50px;
@@ -298,21 +324,23 @@
             border: 1px solid #e1e7f5;
 
             box-shadow:
-                0 15px 45px rgba(35, 52, 85, 0.08);
+                0 15px 45px
+                rgba(35, 52, 85, 0.08);
         }
 
         .project-box h3 {
             font-size: 30px;
+
             margin-bottom: 18px;
         }
 
         .project-box p {
             color: #68738a;
+
             line-height: 1.7;
+
             margin-bottom: 25px;
         }
-
-        /* FOOTER */
 
         footer {
             background: white;
@@ -327,8 +355,6 @@
 
             line-height: 1.8;
         }
-
-        /* MOBILE */
 
         @media (max-width: 800px) {
 
@@ -359,29 +385,40 @@
             .project-box {
                 padding: 35px 20px;
             }
+
         }
 
     </style>
+
 </head>
 
 
 <body>
 
+
     <nav>
 
         <div class="logo">
-            SAD
+            SRB
         </div>
 
         <ul>
 
-            <li><a href="#home">Home</a></li>
+            <li>
+                <a href="#home">Home</a>
+            </li>
 
-            <li><a href="#about">About</a></li>
+            <li>
+                <a href="#about">About</a>
+            </li>
 
-            <li><a href="#skills">Skills</a></li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
 
-            <li><a href="#project">Project</a></li>
+            <li>
+                <a href="#project">Project</a>
+            </li>
 
         </ul>
 
@@ -403,7 +440,7 @@
                 <br>
 
                 <span class="name">
-                    Saurabh A. Deshmukh
+                    Sanved R. Bawankar
                 </span>
 
             </h1>
@@ -418,12 +455,20 @@
 
             <div class="buttons">
 
-                <a href="#project" class="button primary">
+                <a
+                    href="#project"
+                    class="button primary">
+
                     Explore My Work
+
                 </a>
 
-                <a href="#about" class="button secondary">
+                <a
+                    href="#about"
+                    class="button secondary">
+
                     About Me
+
                 </a>
 
             </div>
@@ -444,7 +489,7 @@
             <p>
 
                 Welcome to my cloud-hosted web application.
-                I am Saurabh A. Deshmukh, a Computer
+                I am Sanved R. Bawankar, a Computer
                 Engineering student interested in software
                 development, cloud technology and creating
                 modern digital experiences.
@@ -466,9 +511,13 @@
 
             <div class="skill-card">
 
-                <div class="icon">💻</div>
+                <div class="icon">
+                    💻
+                </div>
 
-                <h3>Programming</h3>
+                <h3>
+                    Programming
+                </h3>
 
                 <p>
                     C, C++, Java, Python,
@@ -480,9 +529,13 @@
 
             <div class="skill-card">
 
-                <div class="icon">☁️</div>
+                <div class="icon">
+                    ☁️
+                </div>
 
-                <h3>Cloud Computing</h3>
+                <h3>
+                    Cloud Computing
+                </h3>
 
                 <p>
                     Cloud services, virtualization,
@@ -494,9 +547,13 @@
 
             <div class="skill-card">
 
-                <div class="icon">🎨</div>
+                <div class="icon">
+                    🎨
+                </div>
 
-                <h3>UI / UX Design</h3>
+                <h3>
+                    UI / UX Design
+                </h3>
 
                 <p>
                     Creating attractive,
@@ -543,7 +600,7 @@
     <footer>
 
         <p>
-            © 2026 Saurabh A. Deshmukh
+            © 2026 Sanved R. Bawankar
         </p>
 
         <p>
@@ -551,6 +608,7 @@
         </p>
 
     </footer>
+
 
 </body>
 
